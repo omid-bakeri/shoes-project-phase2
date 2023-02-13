@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'byekan';
+    src: url("../fonts/BYekan.ttf");
+}
+@font-face {
+    font-family: 'vazir';
+    src: url("../fonts/Vazir.ttf");
+}
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*background-image: linear-gradient(270deg , rgba(3, 71, 124, 0.76), darkblue);*/
+}
+body{
+    background-color: black;
+    font-family: 'byekan';
+}
+.pay-section{
+    width: 100%;
+    height: 102rem;
+    background-color: white;
+}
+.pay-section-title{
+    padding-right: 10rem;
+    padding-top: 3rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #4A4A4A;
+}
+.pay-box{
+    width: 70%;
+    margin-right: 15%;
+    /*background-color: black;*/
+    /*border: 2px solid #9C9A9A;*/
+    height: 105rem;
+    margin-top: 3rem;
+}
+.pay-box-box{
+    border: 2px solid #bab9b9;
+    border-radius: 20px;
+    width: 98%;
+    margin-right: 1%;
+    margin-top: 1%;
+    background-color: #F1F1F1;
+    height: 19%;
+    float: right;
+}
+.pay-row-info{
+    width: 98%;
+    height: 5rem;
+    /*background-color: #c80b0b;*/
+    border-radius: 10px;
+    /*border: 2px solid darkred;*/
+    margin-top: 1rem;
+    margin-right: 1%;
+    user-select: none;
+}
+.pay-row-info-edit-info{
+    float: left;
+    color: #094bbe;
+    padding-left: 2rem;
+    padding-top: 10px;
+    font-family: 'vazir';
+    font-size: 1.1rem;
+}
+.pay-info{
+    height: 15%;
+    color: black;
+}
+.pay-in-input{
+    float: right;
+}
+.pay-input{
+    width: 15rem;
+    height: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    color: #5E615F;
+    background-color: white;
+    border: 2px solid #C0C0C0;
+    font-family: 'vazir';
+    font-size: 1.2rem;
+    text-align: center;
+}
+.pay-input-title{
+    padding-right: 0.9rem;
+    color: #9C9A9A;
+    font-size: 1.1rem;
+}
+.pay-in-input-last-name{
+    margin-right: 10rem;
+}
+.pay-box-box-title-info{
+    color: #000000;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    font-family: 'byekan';
+    font-size: 1.1rem;
+    user-select: auto;
+}
+.pay-box-input-2{
+    /*border: 2px solid red;*/
+    width: 80%;
+    margin-right: 1rem;
+    margin-top: 0.8rem;
+}
+.pay-post-code{
+    /*border: 2px solid #3a3a3a;*/
+    width: 30%;
+}
+.pay-address{
+    width: 95%;
+    /*border: 2px solid red;*/
+}
+.pay-input-address{
+    width: 85%;
+}
+.pay-input-box-two{
+    outline: none;
+    text-align: right;
+    padding-right: 0.7rem;
+    font-family: 'byekan';
+}
+.pay-input-box-two:focus{
+    border: 2px solid #094bbe;
+    color: black;
+    transition: 0.6s ease;
+}
+.pay-box-box-button{
+    width: 12rem;
+    height: 3rem;
+    margin-top: 2rem;
+    float: left;
+    border-radius: 10px;
+    background-color: #094bbe;
+    color: white;
+    margin-left: 2rem;
+    outline: none;
+    font-family: 'byekan';
+    font-size: 1.1rem;
+    padding: 5px;
+    border: none;
+    /*margin-left: 10px;*/
+}
+.pay-box-box-button:hover{
+    cursor: pointer;
+}
+.pay-box-send-info-right{
+    color: black;
+    float: right;
+}
+.pay-box-send-info-left{
+    float: left;
+}
+.pay-send-info-right-box-title{
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.pay-send-info-right-t{
+    color: #000000;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    font-size: 1.3rem;
+}
+.pay-box-send-info-left-image{
+    width: 17em;
+    height: 11rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.pay-bank-info{
+    border: none;
+}
+.pay-box-box-bank{
+    border: 2px solid #bab9b9;
+    border-radius: 20px;
+    background-color: #F1F1F1;
+}
+.pay-bank-info-box-right{
+    height: 70%;
+    /*background-color: #094bbe;*/
+    color: black;
+    width: 68%;
+    float: right;
+}
+.pay-bank-info-box-left{
+    height: 70%;
+    /*background-color: #094bbe;*/
+    color: black;
+    float: left;
+    width: 30%;
+}
+.pay-bank-info{
+    background-color: white;
+}
+.pay-bank-info-box-right-title{
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'vazir';
+}
+.pay-bank-info-box-right-text{
+    color: #5E5E5E;
+    font-weight: 450;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-justify: inter-word;
+    font-family: 'byekan';
+}
+.pay-bank-text{
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+.pay-box-box-bank-left-box-text{
+    color: #8B8B8B;
+    text-align: center;
+    padding-top: 2.4rem;
+    font-size: 1.1rem;
+    font-family: 'vazir';
+}
+.pay-box-box-bank-images-left{
+    width: 70%;
+    margin-right: 15%;
+    /*margin-top: 6%;*/
+    height: 5rem;
+    /*border: 2px solid #9f9e9e;*/
+    border-radius: 10px;
+    /*background-color: #026f97;*/
+    /*position: absolute;*/
+}
+.pay-box-box-bank-images-left:hover{
+    cursor: pointer;
+}
+.pay-box-bank-images-class{
+    width: 8rem;
+    height: 8rem;
+}
+/*.pay-saman-bank{*/
+/*    float: right;*/
+/*}*/
+/*.pay-mellat-bank{*/
+/*    float: left;*/
+/*}*/
+.pay-bank-btn{
+    /*border: none;*/
+    cursor: pointer;
+    /*border: 2px solid #c1bfbf;*/
+    border-radius: 10px;
+    width: 8rem;
+    border: none;
+    height: 8rem;
+    /*padding: 10px;*/
+    /*margin-top: 2rem;*/
+}
+.pay-mellat-bank-btn{
+    /*border: none;*/
+    float: right;
+    /*background-color: #c80b0b;*/
+}
+.pay-saman-bank-btn{
+    float: left;
+}
+.pay-box-button-end-box{
+    width: 48%;
+    border-radius: 10px;
+    border: none;
+    height: 4rem;
+    font-family: 'byekan';
+    font-size: 1.7rem;
+}
+.pay-box-button-end-box:hover{
+    cursor: pointer;
+}
+.pay-button-pay-info-box-back-button{
+    float: right;
+}
+.pay-button-pay-info-box-pay-button{
+    float: left;
+}
+.pay-button-info{
+    height: 9rem;
+    border: none;
+    background-color: white;
+}
+.pay-button-pay-info-box-back-button{
+    background-color: #ADADAD;
+    color: white;
+}
+.pay-button-pay-info-box-pay-button{
+    background-color: #094bbe;
+    color: white;
+}
+.pay-box-Terms-and-Conditions{
+    height: 3rem;
+    margin-top: -5rem;
+    background-color: white;
+    border: none;
+}
+.pay-box-input-check-box{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    float: right;
+}
+.pay-box-input-check-box-tet-condition-and-rules{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'vazir';
+    padding-right: 5px;
+    float: right;
+}

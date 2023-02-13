@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'byekan';
+    src: url("../fonts/BYekan.ttf");
+}
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*background-image: linear-gradient(270deg , rgba(3, 71, 124, 0.76), darkblue);*/
+}
+.temp{
+    width: 100%;
+    height: 60rem;
+    /*background-color: gray;*/
+    background-image: url("images/ho.png");
+}
+/*!*body{*!*/
+/*!*    !*background-color: #094bbe;*!*!*/
+/*!*}*!*/
+body{
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
+    /*background-attachment: scroll;*/
+    /*user-select: none;*/
+    user-select: auto;
+    /*text-after-overflow: #c80b0b;*/
+    font-family: byekan;
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    color: white;
+}
+.container{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+section{
+    width: 100%;
+    /*height: 30rem;*/
+}
+/*.footer{*/
+/*    !*display: flex;*!*/
+/*    width: 100%;*/
+/*    height: 30rem;*/
+/*}*/
+.icon-image{
+    width: 10rem;
+    height: 10rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
+    /*float: right;*/
+}
+.button{
+    /*display: flex;*/
+    position: center;
+}
+.night{
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    width: 7rem;
+    height: 3rem;
+    /*justify-content: center;*/
+    margin-right: 44%;
+    /*float: left;*/
+    margin-top: -7rem;
+    float: right;
+    background-color: #034366;
+    position: center;
+}
+.sun{
+    width: 7rem;
+    height: 3rem;
+    /*justify-content: center;*/
+    margin-right: 49.85%;
+    /*float: left;*/
+    margin-top: -7rem;
+    float: right;
+    background-color: #034366;
+    position: center;
+    border-bottom-left-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+}
+.namad{
+    float: left;
+    margin-left: 8rem ;
+    margin-top: -9rem;
+}
+.h2-1-class{
+    float: right;
+    padding-right: 24rem;
+    padding-top: 5rem;
+}
+.h2-2-class{
+    float: right;
+    padding-right: 11rem;
+    padding-top: 5rem;
+}
+.h2-3-class{
+    float: left;
+    padding-left: 10rem;
+    padding-top: 4rem;
+}
+.iconss{
+    border: none;
+    /*background-color: darkblue;*/
+}
+.iconss:hover{
+    background-color: #026f97;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+.tooltip{
+    position: absolute;
+    width: 6rem;
+    height: 1.7rem;
+    font-family: byekan;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: -2.5rem;
+    border-radius: 0.3rem;
+    /*margin-right: -2rem;*/
+    transition: 0.6s ease;
+}
+.tooltip-hidden{
+    display: none;
+}
+.tooltip-sun{
+    position: absolute;
+    width: 6rem;
+    height: 1.7rem;
+    font-family: byekan;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: -2.5rem;
+    border-radius: 0.3rem;
+    /*margin-right: -2rem;*/
+    transition: 0.6s ease;
+}
+.li , .li2 , .li3{
+    padding-top: 0.7rem;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.li-link{
+    color: white;
+    text-decoration: none;
+    /*text-align-all: right;*/
+}
+.li-link:hover{
+    color: goldenrod;
+    transition: 0.6s ease;
+}
+.news{
+    /*margin-top: 5rem;*/
+    font-size: 1.3rem;
+}
+.news-input{
+    width: 18rem;
+    height: 2.5rem;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border: 2px solid #cecaca;
+    outline: none;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    text-align: center;
+    background-color: #dddddd;
+    color: #080808;
+}
+.news-input:focus{
+    /*border: 2px solid #043b74;*/
+    transition: 0.6s ease-in-out;
+}
+.form{
+    margin-top: 3rem;
+}
+.text-hidden{
+    display: none;
+}
+.submit-button{
+    position: absolute;
+    height: 2.5rem;
+    text-align: center;
+    width: 6rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #035747;
+    font-family: byekan;
+    border: none;
+    margin-right: -0.06rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    margin-top: 0.9rem;
+}
+.submit-button:hover{
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    background-color: rgba(19, 197, 120, 0.64);
+}
+.li3::selection{
+    background-color: #c80b0b;
+    color: white;
+}
+.emailClass{
+    padding-top: 1rem;
+    float: right;
+}
+.emailLink{
+    font-family: 'Dubai Light';
+    font-size: 1.5rem;
+}
+.social-icons{
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+    float: left;
+}
+.icons{
+    margin-right: 1rem;
+}
+.t-final{
+    /*width: 100%;*/
+    text-align: center;
+    color: #c0bcbc;
+    padding-top: 6rem;
+    /*border: 0.3rem solid red;*/
+}
+.te{
+    color: white;
+}

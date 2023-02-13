@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'byekan';
+    src: url("../fonts/BYekan.ttf");
+}
+@font-face {
+    font-family: 'vazir';
+    src: url("../fonts/Vazir.ttf");
+}
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*background-image: linear-gradient(270deg , rgba(3, 71, 124, 0.76), darkblue);*/
+}
+body{
+    user-select: auto;
+    color: black;
+}
+.about-page-title{
+    padding-right: 10rem;
+    padding-top: 3rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #4A4A4A;
+}
+.about-page-box{
+    width: 70%;
+    height: 38rem;
+    /*background-color: red;*/
+    border-radius: 10px;
+    color: black;
+    margin-top: 2rem;
+    margin-right: 15%;
+}
+.about-page-box-right-text{
+    border: 2px solid #CBCACA;
+    color: #5E5E5E;
+    width: 55%;
+    height: 35rem;
+    float: right;
+    margin-top: 1.5rem;
+    /*background-color: #6389cb;*/
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+.about-page-box-left-image{
+    background-image: url("../images/25.png");
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #CBCACA;
+    border-radius: 10px;
+    color: #5E5E5E;
+    width: 40%;
+    height: 35rem;
+    float: left;
+    margin-top: 1.5rem;
+    /*background-color: #143d84;*/
+    margin-left: 1rem;
+}
+.about-page-box-left-image-image{
+    padding: 10px;
+    width: 35rem;
+    height: 35rem;
+    /*margin-top: 2rem;*/
+    object-fit: cover;
+    margin-right: -5%;
+}
+.about-page-box-right-title-text{
+    font-family: 'vazir';
+    color: #000000;
+    text-align: center;
+    padding-top: 2rem;
+}
+.about-page-box-right-text-text{
+    font-family: 'vazir';
+    color: #5E5E5E;
+    text-align: right;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    text-justify: inter-ideograph;
+    line-height: 4rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    user-select: auto;
+}
+.about-page-box-right-text-text::selection{
+    color: white;
+    background-color: red;
+
+}
